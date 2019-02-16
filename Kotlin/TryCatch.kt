@@ -9,8 +9,8 @@ fun main(args:Array<String>){
         println("DIV:$Div")
     }catch (ex:Exception){
         println(ex.message)
+    }finally {
+        // Implementation in both cases (a finally is optional)
+        println("app is done") 
     }
-
-
-    println("app is done")
 }
